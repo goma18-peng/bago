@@ -1,0 +1,76 @@
+{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background 0.5s, color 0.5s;
+    line-height: 1.6;
+    color: #333;
+  }
+  p {
+    line-height: 1.2;
+    font-size: 1.0rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #333;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #0ec532;
+  }
+  
+  section {
+    padding: 100px 20px;
+    min-height: 100vh;
+  }
+  img {
+    width: 420px;
+    height: 420px;
+    border-radius: 25%;
+  }
+  
+  #home {
+    background: radial-gradient(circle, #656666, #133f24);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    min-height: 100vh;
+  }
+  
+  #about {
+    background: radial-gradient(circle, #656666, #133f24);
+    color: white;
+    text-align: center;
+  }
+  
+  #contact {
+    background: radial-gradient(circle, #656666, #133f24);
+    color: white;
+    text-align: center;
+  }
